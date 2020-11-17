@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+      
+        <!-- for logo declare it in the referenceBlock  -->
+        <referenceBlock name="logo">
+            <arguments>
+                <argument name="logo_img_width" xsi:type="number">148</argument>
+                <argument name="logo_img_height" xsi:type="number">43</argument>
+            </arguments>
+        </referenceBlock>
+
+        <referenceContainer name="header.container">
+            <referenceBlock name="header.panel.wrapper" remove="true" />
+            <referenceBlock name="top.search" remove="true" />
+        </referenceContainer>
+        <!-- <move element="header.links" destination="header.panel" after="top.search   " /> -->
+         <referenceBlock name="report.bugs" remove="true"/>
+         <!-- <referenceBlock name="store.menu" remove="true"/> -->
+        <!-- <referenceBlock name="catalog.compare.sidebar" remove="true"/>  -->
+        <referenceBlock name="catalog.compare.link" remove="true"/>
+        <referenceBlock name="customer.account.link" remove="true" />
+        <referenceBlock name="form.subscribe" remove="true" />
+        <referenceBlock name="page.main.title" display="false"/>  
+       
+    </body>
+</page>

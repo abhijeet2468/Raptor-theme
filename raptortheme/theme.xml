@@ -1,0 +1,8 @@
+<theme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/theme.xsd">
+   <!-- in title you have to declare the theme name  -->
+    <title>Raptor Theme</title>   
+
+        <parent>Magento/blank</parent>       
+        <!-- in above code the parent theme, in case our theme inherits from an existing theme -->
+
+</theme>

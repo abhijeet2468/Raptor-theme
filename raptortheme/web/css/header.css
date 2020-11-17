@@ -1,0 +1,121 @@
+body {
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.topmainheader {
+    background-color: rgb(2, 2, 43);
+    width: 100%;
+    height: 37px;
+}
+
+.left-top-header {
+    width: 49%;
+    height: 21px;
+    color: white;
+    font-size: 14px;
+    position: fixed;
+    margin: 7px 2px;
+}
+
+.right-top-header {
+    width: 50%;
+    position: relative;
+    left: 50%;
+    /* margin: 7px 2px; */
+}
+
+ul {
+    display: flex;
+    padding: 7px 35px;
+    ;
+}
+
+.right-header {
+    list-style-type: none;
+    margin: 0px 16px;
+    font-size: 15px;
+}
+
+li a {
+    color: white;
+}
+
+li a:hover {
+    cursor: pointer;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+#chattingbox {
+    border: 2px solid #bec1b8;
+    border-radius: 14px;
+    color: #fdfdfd;
+    margin: 3px 12px;
+    padding: 2px 0px;
+    text-decoration: none;
+}
+
+.chatit {
+    background-color: #ffcba6;
+    margin: 5px 0px;
+    padding: 2px 4px;
+    border-radius: 11px;
+    color: #224a03;
+    font-size: 14px;
+    font-family: unset;
+    font-weight: 700;
+}
+
+.online {
+    background-color: #d0d1d2;
+    color: #204e4c;
+    margin: 2px 0px;
+    padding: 2px 8px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+i {
+    color: #dea131;
+}
+
+
+/* writing the css for navbar */
+
+.navbar {
+    background-color: black;
+    width: 100%;
+    height: 56px;
+    color: white;
+}
+
+.navbar-icon {
+    display: flex;
+    padding: 15px 0px;
+    list-style-type: none;
+    font-size: 13px;
+}
+
+.nav {
+    margin: 0px 11px;
+    cursor: pointer;
+}
+
+#vendorregistration {
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: white;
+    color: #da2e12;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.header.content {
+    padding: 0 !important;
+    width: 100%;
+}
