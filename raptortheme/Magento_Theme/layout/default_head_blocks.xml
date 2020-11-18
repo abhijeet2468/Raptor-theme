@@ -1,14 +1,10 @@
 <?xml version="1.0"?>
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <head>
-            <!-- <css src="css/styles-m.css"/>
-            <css src="css/styles-l.css" media="screen and (min-width: 768px)"/>
-            <css src="css/print.css" media="print"/> -->
         <css src="css/header.css"  />
-        <meta name="format-detection" content="telephone=no"/>
-       <!-- <css src="css/font-awesome.min.css" /> -->
-       <css src="https://use.fontawesome.com/releases/v5.7.1/css/all.css" src_type="url"/>
-        <!-- <script src="js/jquery-3.5.1.js"></script>
-        <script src="js/client.js"></script> -->
+        <css src="https://use.fontawesome.com/releases/v5.7.1/css/all.css" src_type="url"/>
+        <script src="js/jquery-3.5.1.js"></script>
+        <script src="js/client.js"></script> 
+        
     </head>
 </page>

@@ -6,6 +6,7 @@
         <!-- for logo declare it in the referenceBlock  -->
         <referenceBlock name="logo">
             <arguments>
+                <!-- <argument name="logo_img" xsi:type="string">images/raptorlogo.png</argument> -->
                 <argument name="logo_img_width" xsi:type="number">148</argument>
                 <argument name="logo_img_height" xsi:type="number">43</argument>
             </arguments>

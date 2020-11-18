@@ -4,7 +4,12 @@ body {
     padding: 0;
     list-style: none;
 }
-
+.newsprite {
+    background: url(https://www.raptorsupplies.co.uk/pub/media/catalog/homepage/icon-sprit2.png) no-repeat;
+        background-position-x: 0%;
+        background-position-y: 0%;
+    display: inline-block;
+}
 .topmainheader {
     background-color: rgb(2, 2, 43);
     width: 100%;
@@ -16,7 +21,7 @@ body {
     height: 21px;
     color: white;
     font-size: 14px;
-    position: fixed;
+    position: absolute;
     margin: 7px 2px;
 }
 
@@ -29,8 +34,7 @@ body {
 
 ul {
     display: flex;
-    padding: 7px 35px;
-    ;
+    padding: 7px 35px;    
 }
 
 .right-header {
@@ -69,6 +73,10 @@ li a:hover {
     font-family: unset;
     font-weight: 700;
 }
+.fa{
+    margin: 2px 8px;
+    color: #dea131;
+}
 
 .online {
     background-color: #d0d1d2;
@@ -80,17 +88,17 @@ li a:hover {
     font-weight: 800;
 }
 
-i {
-    color: #dea131;
-}
-
+.header{
+    padding: 0 !important; 
+    max-width: 100% !important;
+   }
 
 /* writing the css for navbar */
 
 .navbar {
     background-color: black;
     width: 100%;
-    height: 56px;
+    height: 59px;
     color: white;
 }
 
@@ -99,11 +107,18 @@ i {
     padding: 15px 0px;
     list-style-type: none;
     font-size: 13px;
+    position: relative;
+
 }
 
 .nav {
     margin: 0px 11px;
     cursor: pointer;
+}
+.nav-hover:hover{
+    border: 1px solid white;
+    font-size: 14px;
+    border-radius: 5px;
 }
 
 #vendorregistration {
@@ -115,7 +130,93 @@ i {
     font-weight: 700;
 }
 
-.header.content {
-    padding: 0 !important;
+
+/* toggle button css */
+.toggle-button{
+    /* display: none !important; */
+    position: absolute;
+    left: 0;
     width: 100%;
+    height: 205px;
+    background-color: #d2d2d2;
+    margin: 22px 0px;
+    padding: 0px 2px;
+
+}
+.togg{
+     display: none;
+     position: absolute;
+     left: 0; 
+     padding: 0;
+    top: 57px;  
+}
+hr{
+    border-top: 1px solid #0d0c0c;
+margin: 30px 7px;
+}
+
+.togglebox{
+    background-color: #47717d;
+    width: 33%;
+    list-style-type: none;
+    height: 205px;
+    font-size: 13px;
+    margin: 0 1px;
+    }
+.h3-tag{
+    font-size: 15px;
+    margin: 25px 4px;
+    font-weight: bold;
+    font-family: initial;
+    }
+.para{
+    font-size: 12px;
+margin: 4px 5px;
+}
+.whatsappicon {
+    top: 0;
+    left: -5px;
+    width: 20px;
+    height: 22px;
+    cursor: pointer;
+    background-position: -89px -465px !important;
+}
+
+
+
+/* for image  */
+.image{
+    background-color: #051720;
+    width: 7%;
+    position: relative;
+    left: 50%;
+    top: -81px;
+    border-radius: 15px;
+}
+
+
+/* sign-in button */
+
+.sign-in{
+    position: absolute;
+    right: 67px;
+    top: 60px;
+}
+.sign-btn{
+    background-color: #3c3e11;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 13px;
+    cursor: pointer;
+
+}
+
+
+/* or add to cart  */
+
+.minicart-wrapper{
+    position: relative;
+    top: -37px;
+    right: 16px
 }

@@ -8,12 +8,12 @@
         </a>
     </div>
     <div class="right-top-header">
-        <ul>
+        <ul class="top-header-ul">
             <li class="right-header">
                 <a href="@"><i class="fa fa-phone"></i><span class="numbershow"></span>+44 203 287 5224</a>
             </li>
             <li class="right-header"><a href="#"><i class=" fa fa-envelope"></i><span>sales@raptorsupplies.com</span></a></li>
-            <li class="right-header"><a href="#"><i class="fa fa-whatsapp" ></i><span>Whatsapp</span></a></li>
+            <li class="right-header"><a href="#"><i class="fa newsprite whatsappicon" style="margin: 0px 8px;"></i><span style="position: absolute; bottom: 10px;">Whatsapp</span></a></li>
         </ul>
     </div>
 </div>
@@ -22,17 +22,55 @@
             <div class="div-navbar">
                 <navbar class="navbar">
                     <ul class="navbar-icon">
-                        <li class="nav">Catalogue</li>
-                        <li class="nav">About</li>
-                        <li class="nav">Contact Us</li>
-                        <li class="nav">Submit RFQ</li>
-                        <li class="nav" id="vendorregistration" >VENDOR REGISTRATION</li>
+                        <li class="nav toggle">Catalogue<i class="fa fa-arrow-down" id="toggle" style="color: white"></i>
+                            <ul class="inside-catalogue togg">
+                                    <li class="togglebox">
+                                        <div class="togglediv">
+                                        <h3 class="h3-tag" >Categories</h2>
+                                        <p class="para">Can't find something ? We can source any MRO  Product</p>
+                                        <hr>
+                                        </div>
+                                        
+                                    </li>
+
+                                    <li class="togglebox togglebox-2">
+                                        <div class="toggle-box2-div">
+                                            <h3 class="h3-tag">Brands</h2>
+                                            <p class="para">
+                                            We supply top American  brands to your doorstep within days 
+                                            </p>
+                                            <hr>
+                                        </div>
+                                    </li>
+                                    <li class="togglebox toggle-box-3">
+                                        <div class="toggle-box3-div">
+                                            <h3 class="h3-tag">We can spource any MRO product for you. Talk to one of our procurement specialists</h3>
+                                            <p class="para">We can supply Us products not listed here and, unlike most  companies , we enjoy a real companies</p>
+                                        </div>
+                                    </li>
+                            </ul>
+                        </li>
+                        <li class="nav nav-hover">About</li>
+                        <li class="nav nav-hover">Contact Us</li>
+                        <li class="nav nav-hover">Submit RFQ</li>
+                        <li class="nav " id="vendorregistration" >VENDOR REGISTRATION</li>
                     </ul>
-                    <!-- <div class="header-image">
+
+                    <!-- images for logo -->
+                    <div class="image">
                         <img src="images/raptorlogo.png" >
-                    </div> -->
+                    </div>
+                    <div class="sign-in">
+                        <button class="sign-btn">Sign In</button>
+                    </div>
+                   
                 </navbar>
             </div>
         
     </header>
 </section>
+<!-- 
+app/design/frontend/Raptor/raptortheme/
+Magento_Theme/templates/html/header/web/images/raptorlogo.png -->
+
+<scr
